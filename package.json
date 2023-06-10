@@ -1,0 +1,15 @@
+{
+  "name": "http2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":"node .",
+    "dev":"node --watch .",
+    "cert": "openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
